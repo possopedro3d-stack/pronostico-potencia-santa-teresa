@@ -1,0 +1,13 @@
+﻿modelo,ventana,unidad,MAE (MW),RMSE (MW),MAPE (%),Tiempo de cómputo (s)
+Baseline persistencia,12,G1,"0,28","0,76","5,96",—
+Baseline persistencia,12,G2,"0,19","0,87","8,19",—
+Baseline persistencia,12,Agregado,"0,24","0,82","7,07","< 0,01"
+Random Forest,12,G1,"0,27","0,76","5,91",—
+Random Forest,12,G2,"0,17","0,68","8,03",—
+Random Forest,12,Agregado,"0,22","0,72","6,97","1,86"
+XGBoost,12,G1,"0,28","0,76","6,13",—
+XGBoost,12,G2,"0,16","0,67","7,92",—
+XGBoost,12,Agregado,"0,22","0,72","7,03","0,32"
+LSTM,12,G1,"0,23","0,61","4,97",—
+LSTM,12,G2,"0,14","0,66","7,84",—
+LSTM,12,Agregado,"0,18","0,64","6,40","14,87"
